@@ -26,17 +26,6 @@ O código que apresento aqui foi feito do zero e foi uma resposta ao projeto pro
 
 Nesse projeto foi criado a partir de um template um app estilo LinkTree com uma tela de home com links para redes sociais e uma segunda tela com os meus níveis de habilidade na área tech. O projeto faz parte da conclusão do bootcamp MeuTudo Mobile, e será aproveitado para um projeto diferente no futuro.
 
-## Preview
-<center><img 
-      alt="Portfolio App Preview" 
-      src="" 
-      width="200px"
-/></center>
-<center><img 
-      alt="App screen with a list of skills and a photo" 
-      src="" 
-      width="200px"
-/></center>
 
 ## 📚 Pré-requisitos de Habilidades e Níveis de Conhecimento
 
