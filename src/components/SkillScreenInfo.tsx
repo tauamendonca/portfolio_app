@@ -1,37 +1,40 @@
 import React from 'react';
-import { StyleSheet } from 'react-native';
+import { Image, StyleSheet } from 'react-native';
 
 import { ExternalLink } from './ExternalLink';
 import { MonoText } from './StyledText';
 import { Text, View } from './Themed';
 
-import Colors from '@/constants/Colors';
+import Colors from '../constants/Colors';
 
-export default function ProfileScreenInfo({ path }: { path: string }) {
+export default function SkillScreenInfo() {
   return (
     <View>
       <View style={styles.getStartedContainer}>
-        {/* aqui vai a foto */}
+        <Image 
+            source={require("../../assets/images/profile.jpg")} 
+            style={{ width: '50%', height: '50%' }}
+        />
         
         <Text
           style={styles.getStartedText}
           lightColor="rgba(0,0,0,0.8)"
           darkColor="rgba(255,255,255,0.8)">
-          Colocar uma breve descrição minha aqui
+          Colocar uma breve descrição das skills aqui?
         </Text>
 
         <View
           style={[styles.codeHighlightContainer, styles.homeScreenFilename]}
           darkColor="rgba(255,255,255,0.05)"
           lightColor="rgba(0,0,0,0.05)">
-          <MonoText>{path}</MonoText>
+          <MonoText>AQUI VAI SKILLS</MonoText>
         </View>
 
         <Text
           style={styles.getStartedText}
           lightColor="rgba(0,0,0,0.8)"
           darkColor="rgba(255,255,255,0.8)">
-          Aqui tem algumas das minhas redes sociais.
+          Nem sei o q vai embaixo.
         </Text>
       </View>
 
@@ -40,7 +43,7 @@ export default function ProfileScreenInfo({ path }: { path: string }) {
           style={styles.helpLink}
           href="https://docs.expo.io/get-started/create-a-new-app/#opening-the-app-on-your-phonetablet">
           <Text style={styles.helpLinkText} lightColor={Colors.light.tint}>
-            Tap here if your app doesn't automatically update after making changes
+            Isso aqui é um link
           </Text>
         </ExternalLink>
       </View>

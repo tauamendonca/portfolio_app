@@ -5,9 +5,9 @@ import { ExternalLink } from './ExternalLink';
 import { MonoText } from './StyledText';
 import { Text, View } from './Themed';
 
-import Colors from '@/constants/Colors';
+import Colors from '../constants/Colors';
 
-export default function ExtraScreenInfo({ path }: { path: string }) {
+export default function ProfileScreenInfo({ path }: { path: string }) {
   return (
     <View>
       <View style={styles.getStartedContainer}>

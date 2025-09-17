@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
-import { Text, View } from '@/components/Themed';
-import SkillScreenInfo from '@/components/SkillScreenInfo';
+import SkillScreenInfo from '../../components/SkillScreenInfo';
+import { Text, View } from '../../components/Themed';
 
 export default function TabTwoScreen() {
   return (
